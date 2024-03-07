@@ -397,7 +397,7 @@
 
 	// services Images
 	const serviceImgItem = document.querySelectorAll(".sevices-wrap .single-services ");
-	console.log(serviceImgItem);
+	// console.log(serviceImgItem);
 	function followImageCursor(event, serviceImgItem) {
 	  const contentBox = serviceImgItem.getBoundingClientRect();
 	  const dx = event.clientX - contentBox.x;
@@ -412,7 +412,7 @@
 	});
 
 	const serviceImgItem2 = document.querySelectorAll(".sevices-wrap2 .single-services");
-	console.log(serviceImgItem2);
+	// console.log(serviceImgItem2);
 	function followImageCursor2(event, serviceImgItem2) {
 	  const contentBox = serviceImgItem2.getBoundingClientRect();
 	  const dx = event.clientX - contentBox.x;
@@ -462,9 +462,9 @@
 
 	const foo = (360 / 7);
 
-	for (let i = 0; i <= 7; i++) {
-	console.log((i * foo) + 'deg');
-	}
+	// for (let i = 0; i <= 7; i++) {
+	// console.log((i * foo) + 'deg');
+	// }
 
 	// Button Bounce animation
 	let arr1 = gsap.utils.toArray("#btn_wrapper")
