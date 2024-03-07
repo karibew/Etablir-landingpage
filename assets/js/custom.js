@@ -460,7 +460,7 @@
 	elem.style.setProperty('--char-rotate', (i * step) + 'deg');
 	})
 
-	const foo = (360 / 7);
+	// const foo = (360 / 7);
 
 	// for (let i = 0; i <= 7; i++) {
 	// console.log((i * foo) + 'deg');
@@ -530,7 +530,6 @@
 	let progressBarIndex = 0;
 	
 	$('.progressBarContainer .progressBar').each(function(index) {
-		console.log(index)
 		let progress = "<div class='inProgress inProgress" + index + "'></div>";
 		$(this).html(progress);
 	});
