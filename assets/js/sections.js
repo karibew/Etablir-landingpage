@@ -165,7 +165,7 @@ const getHeaderSection = (activeMenu) => {
         "                    </li>\n" +
         "                </ul>\n" +
         "            </div>\n" +
-        "            <div class=\"nav-right d-flex jsutify-content-end align-items-center\">\n" +
+        "            <div class=\"nav-right d-flex justify-content-end align-items-center\">\n" +
         "                <div class=\"right-sidebar-and-hotline-area\">\n" +
         "                    <div class=\"hotline-area d-xxl-flex d-none\">\n" +
         "                        <div class=\"icon\">\n" +
