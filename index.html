@@ -31,15 +31,15 @@
 </head>
 
 <body>
-    <script type="text/javascript">
-        document.body.className = localStorage.getItem("zenfy_theme");
-    </script>
-
     <div id="header-container">
         <script type="text/javascript">
             getHeaderSection('HOME');
         </script>
     </div>
+
+    <script type="text/javascript">
+        document.body.className = localStorage.getItem("zenfy_theme");
+    </script>
 
     <div id="theme-switch-container">
         <script type="text/javascript">
@@ -58,8 +58,6 @@
             getSidebarSection();
         </script>
     </div>
-
-
 
     <!-- Start Banner section -->
     <div class="home1-banner-section">
@@ -298,25 +296,6 @@
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <!-- Custom JS -->
     <script src="assets/js/custom.js"></script>
-    <script>
-        $(".marquee_text").marquee({
-            direction: "left",
-            duration: 45000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-        $(".marquee_text2").marquee({
-            direction: "left",
-            duration: 25000,
-            gap: 50,
-            delayBeforeStart: 0,
-            duplicated: true,
-            startVisible: true,
-        });
-    </script>
-
 
 </body>
 

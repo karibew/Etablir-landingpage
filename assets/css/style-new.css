@@ -13934,6 +13934,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   position: relative;
   transition: 0.35s;
 }
+.partnership-area .single-partner img {
+  width: 170px;
+}
 .partnership-area .single-partner svg {
   position: absolute;
   right: 0;
