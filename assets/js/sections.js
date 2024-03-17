@@ -39,7 +39,7 @@ const getContactSection = (showAnimation = true) => {
         "                                </div>\n" +
         "                                <div class=\"content\">\n" +
         "                                    <span>Call Us</span>\n" +
-        "                                    <h6><a href=\"tel:+15555555555\">+1 (555) 555-5555</a></h6>\n" +
+        "                                    <h6><a href=\"tel:+12015793148\">+1 (201) 579-3148</a></h6>\n" +
         "                                </div>\n" +
         "                            </div>\n" +
         "                            <div class=\"hotline-area\">\n" +
@@ -205,7 +205,7 @@ const getSidebarSection = () => {
         "                                    </div>\n" +
         "                                    <div class=\"contact\">\n" +
         "                                        <span>Phone</span>\n" +
-        "                                        <h6><a href=\"tel:+15555555555\">+1 (555) 555-5555</a></h6>\n" +
+        "                                        <h6><a href=\"tel:+12015793148\">+1 (201) 579-3148</a></h6>\n" +
         "                                    </div>\n" +
         "                                </li>\n" +
         "                                <li class=\"single-contact\">\n" +
