@@ -3,8 +3,8 @@ const getContactSection = (showAnimation = true) => {
 
     contactContainer.innerHTML = "<div class=\"contact-section\">\n" +
         "        <div class=\"container\">\n" +
-        "            <div class=\"row g-lg-4 gy-5\">\n" +
-        "                <div class=\"col-12\">\n" +
+        "            <div class=\"row g-lg-4\">\n" +
+        "                <div class=\"col-12 col-lg-6\">\n" +
         "                    <div class=\"contact-content\">\n" +
         "                        <div class='" + (showAnimation ? "section-title white wow animate fadeInUp" : "section-title white") + "' data-wow-delay=\"200ms\" data-wow-duration=\"500ms\">\n" +
         "                            <span>\n" +
@@ -25,8 +25,8 @@ const getContactSection = (showAnimation = true) => {
         "                            <h2>Connect with<br /> Etablir Solutions</h2>\n" +
         "                            <p>Ready to take the first step towards unlocking opportunities, realizing goals, and embracing innovation? We're here and eager to connect.</p>\n" +
         "                        </div>\n" +
-        "                        <div class='" + (showAnimation ? "contact-area wow animate fadeInUp" : "contact-area") + "'  data-wow-delay=\"300ms\" data-wow-duration=\"1000ms\">\n" +
-        "                            <div class=\"hotline-area\">\n" +
+        "                        <div class='" + (showAnimation ? "row contact-area wow animate fadeInUp" : "row contact-area") + "'  data-wow-delay=\"300ms\" data-wow-duration=\"1000ms\">\n" +
+        "                            <div class=\"col-12 col-xl-5 hotline-area\">\n" +
         "                                <div class=\"icon\">\n" +
         "                                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 28 28\">\n" +
         "                                        <path\n" +
@@ -42,7 +42,7 @@ const getContactSection = (showAnimation = true) => {
         "                                    <h6><a href=\"tel:+12015793148\">+1 (201) 579-3148</a></h6>\n" +
         "                                </div>\n" +
         "                            </div>\n" +
-        "                            <div class=\"hotline-area\">\n" +
+        "                            <div class=\"col-12 col-xl-7 hotline-area\">\n" +
         "                                <div class=\"icon\">\n" +
         "                                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 26 26\">\n" +
         "                                        <path\n" +
@@ -64,6 +64,9 @@ const getContactSection = (showAnimation = true) => {
         "                            </div>\n" +
         "                        </div>\n" +
         "                    </div>\n" +
+        "                </div>\n" +
+        "                <div class=\"col-12 col-md-9 col-lg-6\">\n" +
+        "                    <div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/etablirsolutions?&background_color=f5f5f5&text_color=000000\"></div>\n" +
         "                </div>\n" +
         "            </div>\n" +
         "        </div>\n" +
