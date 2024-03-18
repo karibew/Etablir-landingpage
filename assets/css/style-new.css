@@ -5828,6 +5828,31 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   background-color: var(--light-black-color);
   padding: 100px 0 50px;
 }
+.contact-section .calendly-inline-widget {
+  height: 800px;
+  min-width: 320px;
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  .contact-section {
+    height: 560px;
+  }
+  .contact-section .calendly-inline-widget {
+    margin-top: 35px;
+  }
+}
+@media (max-width: 991px) {
+  .contact-section {
+    height: 980px;
+  }
+}
+@media (max-width: 576px) {
+  .contact-section {
+    height: 880px;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .contact-section {
     padding: 90px 0 40px;
@@ -5848,13 +5873,13 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   margin-bottom: 40px;
   padding-top: 60px;
-  gap: 60px;
+  /*gap: 60px;*/
 }
 @media (max-width: 576px) {
   .contact-section .contact-content .contact-area {
     display: block;
     padding-top: 30px;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
   }
 }
 .contact-section .contact-content .contact-area .hotline-area {
