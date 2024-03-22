@@ -155,8 +155,8 @@ const getSidebarSection = () => {
         "        <div class=\"sidebar-menu-top-area\">\n" +
         "            <div class=\"container d-flex align-items-center justify-content-between\">\n" +
         "                <div class=\"sidebar-menu-logo\">\n" +
-        "                    <a href=\"index.html\" class=\"logo-dark\"><img alt=\"image\" class=\"img-fluid\" src=\"assets/img/etablir-logo-dark-3.svg\"></a>\n" +
-        "                    <a href=\"index.html\" class=\"logo-light\"><img alt=\"image\" class=\"img-fluid\" src=\"assets/img/etablir-logo-light-3.svg\"></a>\n" +
+        "                    <a href=\"index.html\" class=\"logo-dark\"><img alt=\"image\" class=\"img-fluid\" style=\"height: 60px\" src=\"assets/img/etablir-solutions-logo-dark-text.svg\"></a>\n" +
+        "                    <a href=\"index.html\" class=\"logo-light\"><img alt=\"image\" class=\"img-fluid\" style=\"height: 60px\" src=\"assets/img/etablir-solutions-logo-light-text.svg\"></a>\n" +
         "                </div>\n" +
         "                <div class=\"sidebar-menu-close\">\n" +
         "                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 18 18\">\n" +
